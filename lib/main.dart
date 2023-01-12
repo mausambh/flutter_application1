@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'ListView/list_view_builder.dart';
+import 'input/form_validation.dart';
 import 'input/text_form_field.dart';
 
 void main() {
@@ -42,7 +43,8 @@ class HomePage extends StatelessWidget {
         title: const Text("Flutter 101"),
       ),
       // body: ListViewBuilderClass(),
-      body: const TextFormFieldClass(),
+      // body: const TextFormFieldClass(),
+      body: const MyCustomForm(),
       // body: const ListViewClass(),
       // body: const ImageHolder(
       //   img:

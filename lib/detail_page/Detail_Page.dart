@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../Models/image.dart';
 
 class DetailPage extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application1/Models/image.dart';
 
-import '../detail_page/Detail_Page.dart';
+import '../detail_page/detail_page.dart';
 
 class Description extends StatelessWidget {
   final ImageModel? image;

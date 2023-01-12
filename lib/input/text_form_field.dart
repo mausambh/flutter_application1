@@ -15,8 +15,19 @@ class _TextFormFieldClassState extends State<TextFormFieldClass> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        TextFormField(
-          controller: _textEditingController,
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: TextFormField(
+            decoration: const InputDecoration(
+              border: OutlineInputBorder(),
+            ),
+            onChanged: (text) {
+              setState(() {
+                displayText = text;
+              });
+            },
+            controller: _textEditingController,
+          ),
         ),
         MaterialButton(
           color: Colors.blue,
