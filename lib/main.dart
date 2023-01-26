@@ -40,6 +40,7 @@ class MyApp extends StatelessWidget {
       // home: const setPhoneNumber(),
       onGenerateRoute: RouteGenerator.getRoute,
       initialRoute: Routes.setPhoneNumber,
+      // initialRoute: Routes.setPhoneNumber,
     );
   }
 }
